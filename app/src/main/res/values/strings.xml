@@ -1,0 +1,66 @@
+<resources>
+    <!-- Profile activity layout -->
+    <string name="app_name">MyRuns</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="gender">Gender</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="class_name">Class</string>
+    <string name="major">Major</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="profile_photo">Profile Photo</string>
+    <string name="change">Change</string>
+
+
+    <!-- Start fragment layout -->
+    <string name="input_type">Input Type</string>
+    <string name="activity_type">Activity Type</string>
+    <string name="start">Start</string>
+    <string name="sync">Sync</string>
+
+
+    <!-- Preferences.xml -->
+    <string name="account_preferences">Account Preferences</string>
+    <string name="information">Name, Email, Class, etc</string>
+    <string name="information_summary">User Profile</string>
+    <string name="privacy_settings">Privacy Setting</string>
+    <string name="privacy_settings_summary">Posting your records anonymously</string>
+    <string name="additional_preferences">Additional Settings</string>
+    <string name="unit_preference">Unit Preference</string>
+    <string name="unit_preference_summary">Select the units</string>
+
+    <string name="dialog_title_unit">Unit Preference</string>
+    <string name="comments">Comments</string>
+    <string name="summary_comments">Please enter your comments</string>
+    <string name="dialog_title_comments">Comments</string>
+
+    <string name="Misc">Misc.</string>
+    <string name="webpage">Webpage</string>
+    <string name="summary_webpage">cs.dartmouth.edu/~campbell/cs65/cs65.html</string>
+
+
+    <!-- Map activity layout -->
+    <string name="map">Map</string>
+
+    <!-- Manual activity layout -->
+    <string name="ok">Ok</string>
+    <string name="duration">Duration</string>
+    <string name="distance">Distance</string>
+    <string name="calories">Calories</string>
+    <string name="heart_rate">Heart Rate</string>
+    <string name="comment">Comment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+
+    <!-- Display entry layout-->
+    <string name="calendar">Date and time</string>
+    <string name="action_delete">DELETE</string>
+    <string name="kilometers">Metric (Kilometers)</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

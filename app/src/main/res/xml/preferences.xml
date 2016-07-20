@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:title="@string/account_preferences">
+
+        <PreferenceScreen
+            android:key="profile_preference"
+            android:title="@string/information"
+            android:summary="@string/information_summary">
+
+            <intent android:action="open.profile.activity"/>
+        </PreferenceScreen>
+
+        <CheckBoxPreference
+            android:key="privacy_preference"
+            android:title="@string/privacy_settings"
+            android:summary="@string/privacy_settings_summary" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/additional_preferences">
+
+        <ListPreference
+            android:key="list_preference"
+            android:title="@string/unit_preference"
+            android:summary="@string/unit_preference_summary"
+            android:entries="@array/entries_unit_preference"
+            android:entryValues="@array/entryvalues_unit_preference"
+            android:dialogTitle="@string/dialog_title_unit" />
+
+        <EditTextPreference
+            android:key="edittext_preference"
+            android:title="@string/comments"
+            android:summary="@string/summary_comments"
+            android:dialogTitle="@string/dialog_title_comments" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/Misc">
+
+        <PreferenceScreen
+            android:title="@string/webpage"
+            android:summary="@string/summary_webpage">
+
+            <intent android:action="android.intent.action.VIEW"
+                android:data="http://cs.dartmouth.edu/~campbell/cs65/cs65.html" />
+
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
